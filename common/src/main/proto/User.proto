@@ -1,0 +1,15 @@
+package user;
+option java_package = "com.qiyiguo.common.model";
+option java_outer_classname = "User";
+
+message UserInfo{
+	optional string uid					= 1;//user id
+	optional string uname					= 2;//user name
+	optional string nickname			= 3;//
+	optional string mobile				= 4;
+	optional string email				= 5;
+	optional string type				= 6;
+	optional string status				= 7;
+	optional string imageId				= 8;
+	optional string gender				= 9;
+}
